@@ -235,6 +235,47 @@ img {
     color: var(--blanco);
 }
 
+.producto__formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.producto__label{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.producto__color{
+    border: 2px solid var(--primary);
+    padding: 1rem;
+    text-align: center;
+}
+
+.producto__color:focus-visible{
+    outline: 2px solid var(--primary);
+    border: none;
+}
+.producto__agregar-carro{
+    margin-top: 2rem;
+    display: block;
+    background-color: var(--primary);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+    padding: 2rem 4rem;
+    color: var(--blanco);
+    font-size: 1.8;
+    font-weight: 700;
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+.producto__agregar-carro:hover{
+    background-color: var(--negro);
+    cursor: pointer;
+}
+
 .cursos{
     background-image: linear-gradient(to right, rgb(0 0 0 / .65), rgb(0 0 0 / .65)), url('../img/cursosbg.jpg');
     background-size: cover;
@@ -309,6 +350,10 @@ img {
     }
 }
 
+.entrada{
+    max-width: 80rem;
+    margin: 0 auto;
+}
 .entrada__contenido{
     padding: 2rem;
 }

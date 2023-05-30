@@ -31,13 +31,27 @@
         </div>
     </header>
 
-    <main class="nosotros__contenedor">
-        <h2 class="nosotros__heading">Nosotros</h2>
-        
-        <div class="nosotros__grid">
-            <img src="img/nosotros.jpg" alt="img nosotros">
-            <div class="nosotros__contenido">
-                <p>¡Bienvenidos a nuestra tienda de guitarras y clases de guitarra! Somos un apasionado equipo de músicos y amantes de la guitarra que se dedica a proporcionar a nuestros clientes la mejor experiencia musical posible. Ya sea que estés buscando tu primera guitarra o desees perfeccionar tus habilidades como guitarrista, estamos aquí para ayudarte en cada paso del camino.</p>
+    <main class="producto__contenedor">
+        <div class="producto">
+            <img class="producto__imagen" src="img/guitarra1.svg" alt="guitarra">
+            <div class="producto__contenido">
+                <h3 class="producto__nombre">Darth Guitar</h3>
+                <p class="producto__descripcion">Nuestra guitarra más dark, la favorita de Darth Vader.</p>
+                <p class="producto__descripcion">Con un cuerpo elegante y un acabado oscuro, la Darth Guitar es perfecta para aquellos que buscan un estilo único y poderoso en su instrumento. Su sonido profundo y resonante te transportará a otra galaxia mientras tocas tus acordes favoritos. ¡Únete al lado oscuro de la música con la Darth Guitar!</p>
+                <p class="producto__descripcion">Esta guitarra viene equipada con pastillas de alta calidad y un mástil rápido que te permitirá explorar nuevos horizontes musicales. Ya sea que estés tocando en casa, en el escenario o en la Estrella de la Muerte, la Darth Guitar es tu aliada para crear música con fuerza y estilo.</p>
+
+                <p class="producto__precio">160.000 CLP</p>
+                <form class="producto__formulario">
+                    <label for="cantidad" class="producto__label">Color:</label>
+                    <select class="producto__color">
+                        <option value="">Seleccione un color</option>
+                        <option value="negro">Negro</option>
+                        <option value="negro_met">Negro Metálico</option>
+                        <option value="estampado">Estampado Darth Vader</option>
+                    </select>
+
+                    <input type="submit" class="producto__agregar-carro" value="Agregar al carro">
+                </form>
             </div>
         </div>
     </main>
